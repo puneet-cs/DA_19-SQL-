@@ -1,0 +1,18 @@
+CREATE TABLE FoodLovers(
+    FoodID INT PRIMARY KEY,
+    FoodName VARCHAR(50),
+    PersonName VARCHAR(50),
+    Price INT,
+    Quantity INT,
+    City VARCHAR(50),
+    Rating DECIMAL(2,1)
+);
+
+
+INSERT INTO FoodLovers VALUES
+(1,'Pizza','Bunty',250,2,'Delhi',4.5),
+(2,'Burger','Babli',120,5,'Mumbai',3.9),
+(3,'Momos','Chintu',80,10,'Delhi',4.8),
+(4,'Pasta','Pinky',200,1,'Pune',4.1),
+(5,'Biryani','Singham',300,3,'Hyderabad',5.0),
+(6,'Dosa','Raju',90,7,'Chennai',4.2);
