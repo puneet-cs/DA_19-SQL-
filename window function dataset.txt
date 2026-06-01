@@ -1,0 +1,21 @@
+CREATE TABLE Marriage_Reality(
+ID INT PRIMARY KEY,
+Name VARCHAR(30),
+Age INT,
+City VARCHAR(30),
+Salary INT,
+Marriage_Type VARCHAR(20),
+Partner_Happiness INT,
+Shopping_Expense INT
+);
+
+
+INSERT INTO Marriage_Reality VALUES
+(1,'Rahul',28,'Delhi',90000,'Love',90,40000),
+(2,'Aman',30,'Delhi',70000,'Arrange',60,25000),
+(3,'Rohit',27,'Mumbai',120000,'Love',85,50000),
+(4,'Puneet',32,'Mumbai',150000,'Arrange',50,70000),
+(5,'Bunty',26,'Delhi',40000,'Love',95,10000),
+(6,'Bablu',35,'Pune’,90000,'Arrange',40,60000),
+(7,'Chintu',29,'Pune',110000,'Love',88,30000),
+(8,'Guddu',31,'Mumbai',100000,'Arrange',45,55000);
