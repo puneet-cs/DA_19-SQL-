@@ -1,0 +1,22 @@
+CREATE TABLE MarriageCandidates
+(
+    ID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INT,
+    City VARCHAR(30),
+    Salary INT,
+    Height FLOAT,
+    MarriageType VARCHAR(20),
+    Crush VARCHAR(50)
+);
+
+
+INSERT INTO MarriageCandidates VALUES
+(1,'Bunty',26,'Delhi',50000,5.8,'Love','Pinky'),
+(2,'Pinky',24,'Mumbai',70000,5.4,'Love','Bunty'),
+(3,'Chintu',30,'Delhi',40000,5.6,'Arrange','Riya'),
+(4,'Riya',27,'Jaipur',90000,5.5,'Love','Chintu'),
+(5,'Bablu',28,'Delhi',35000,5.9,'Arrange','None'),
+(6,'Sweety',25,'Mumbai',80000,5.3,'Love','Rocky'),
+(7,'Rocky',29,'Pune',100000,6.0,'Love','Sweety'),
+(8,'Guddu',31,'Delhi',45000,5.7,'Arrange','None');
