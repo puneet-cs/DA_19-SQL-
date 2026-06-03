@@ -1,0 +1,19 @@
+CREATE TABLE MarriageCandidates
+(
+    ID INT PRIMARY KEY,
+    Name VARCHAR(30),
+    Age INT,
+    Salary INT,
+    City VARCHAR(20),
+    MarriageType VARCHAR(20)
+);
+
+
+INSERT INTO MarriageCandidates VALUES
+(1,'Rahul',28,70000,'Delhi','Love'),
+(2,'Priya',25,50000,'Mumbai','Arranged'),
+(3,'Aman',31,120000,'Pune','Love'),
+(4,'Neha',27,45000,'Delhi','Arranged'),
+(5,'Rohit',35,90000,'Mumbai','Love'),
+(6,'Pooja',24,30000,'Jaipur','Arranged'),
+(7,'Karan',29,110000,'Delhi','Love');
